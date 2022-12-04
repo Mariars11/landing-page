@@ -1,0 +1,134 @@
+@import url(reset.css);
+
+header{
+    background-image: url("https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/banner.png?raw=true"), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+    width: 1440px;
+    height: 605px;
+    text-align: center;
+    background-color: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    background-size: cover;
+}
+.logo{
+    margin: 0px 596px 40px;
+    width: 248px;
+    height: 214px;
+}
+
+h1{
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text; -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+header p{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0px 465px 50px;
+    color: rgba(255, 255, 255, 1);
+}
+
+button{
+    width: 326px;
+    height: 57px;
+    border: 2px solid #1572B7;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text; -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+section h2{
+    padding-top: 100px;
+    letter-spacing: 0.19em;
+    color: rgba(51, 168, 219, 1);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+#course-content p{
+    padding-top: 50px;
+    padding-bottom: 24px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 24px 324px;
+}
+.modules-list div{
+    border: 1px solid #33A8DB;
+    background: #252525;
+    border-radius: 57px;
+    box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    margin: 24px 452.5px;
+}
+
+#course-content{
+    background-color: black;
+    height: 600px;
+    text-align: center;
+}
+#transform-world p{
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 2px 8px #33A8DB;
+    width: 244px;
+    height: 141px;
+    padding-top: 95px;
+    padding-left: 150px;
+}
+.module{
+    color: white;
+}
+.module span{
+    color: rgba(51, 168, 219, 1);
+}
+
+#transform-world{
+    background-image: url("https://github.com/digitalinnovationone/trilha-css-desafio-01/blob/main/assets/images/woman-code.png?raw=true");
+    height: 400px;
+    background-position: 50%;
+    background-size: cover;
+    background-color: black;
+    vertical-align: middle;
+}
+
+#professional-challenges{
+    background-color: black;
+    text-align: center;
+}
+
+#professional-challenges h2{
+    padding: 50px 347px;
+}
+#professional-challenges p{
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 50px 324px;
+}
+footer{
+    text-align: center;
+    background: black
+}
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+footer a{
+    color: #33A8DB;
+    text-decoration: none;
+}
+
+#dio-logo{
+    padding-top: 70px;
+}
